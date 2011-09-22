@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Matthew Richmond’s Bundle</string>
+	<key>ordering</key>
+	<array>
+		<string>C61DAF00-1AE6-44E6-B789-7BBB5D4C5FF9</string>
+		<string>B05426F4-847F-4E1C-BDF7-2BBB2479C648</string>
+		<string>2C22905C-434B-485F-B5B2-5B88AF799228</string>
+		<string>3D0C5382-41AA-40B1-BA1A-C6E63487D993</string>
+		<string>12722AA6-45C6-43E3-8D69-008EEA913E9C</string>
+		<string>4ABB3B8E-1C1A-4ABE-A1BA-C6343476911A</string>
+		<string>873338F2-0A17-49EF-AC8B-6F840DD4263B</string>
+		<string>94C9D724-13F6-4131-B6B9-E6CF215CE57F</string>
+		<string>60BF927C-E94E-4ACF-8174-AA20F5317351</string>
+		<string>7327398C-F8FD-40B7-9B3A-23BA223C9082</string>
+		<string>E0ADCA06-8E92-4B22-BDC3-AD62BD29F9D7</string>
+		<string>2B315947-1994-4AF1-AE2F-B134424E60DD</string>
+		<string>50A1E2DE-9F9F-45E2-9B5F-E0FEB14795B6</string>
+		<string>20BD3374-94E6-465C-97BD-D99C47E9E599</string>
+		<string>54AA35EB-F576-4A46-B277-130490BE5AD6</string>
+		<string>4161AF6B-C2E3-4909-9BF3-F05D72D27EEB</string>
+		<string>22FBF7B4-87B4-474F-A353-E64745A473F8</string>
+		<string>8E5C5314-B991-4DC5-90FA-BF58334D2342</string>
+		<string>9A8F911D-EB4D-45DA-8B65-82EFC5071B85</string>
+		<string>96877DE1-96C6-4D6E-B38F-E561D92EF0C2</string>
+	</array>
+	<key>uuid</key>
+	<string>B23E509F-63B3-4C7D-85C3-25D76BE11B9F</string>
+</dict>
+</plist>

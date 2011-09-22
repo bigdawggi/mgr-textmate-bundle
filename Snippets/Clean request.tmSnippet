@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>strip_tags(stripslashes(${1:POST or GET}));</string>
+	<key>name</key>
+	<string>Clean request</string>
+	<key>tabTrigger</key>
+	<string>clean</string>
+	<key>uuid</key>
+	<string>8E5C5314-B991-4DC5-90FA-BF58334D2342</string>
+</dict>
+</plist>

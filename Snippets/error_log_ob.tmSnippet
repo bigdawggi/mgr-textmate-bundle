@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ob_start();
+${1:function}(${2});
+error_log(ob_get_clean());</string>
+	<key>name</key>
+	<string>error_log_ob</string>
+	<key>tabTrigger</key>
+	<string>elog</string>
+	<key>uuid</key>
+	<string>20BD3374-94E6-465C-97BD-D99C47E9E599</string>
+</dict>
+</plist>

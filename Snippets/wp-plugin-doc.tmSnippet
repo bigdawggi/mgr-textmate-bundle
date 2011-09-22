@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/*
+Plugin Name: ${1:Plugin Name}
+Plugin URI: ${2}
+Description: ${3:Description}
+Version: ${4:1.0}
+Author: Crowd Favorite
+Author URI: http://crowdfavorite.com
+*/
+</string>
+	<key>name</key>
+	<string>wp-plugin-doc</string>
+	<key>tabTrigger</key>
+	<string>pd</string>
+	<key>uuid</key>
+	<string>22FBF7B4-87B4-474F-A353-E64745A473F8</string>
+</dict>
+</plist>

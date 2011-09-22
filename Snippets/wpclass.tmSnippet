@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class $1 {
+	
+	static \$instance;
+
+	private function __construct() {
+		/* Define what our "action" is that we'll 
+		listen for in our request handlers */
+		\$this-&gt;action = '${2:ACTION}';
+	}
+
+	public function factory() {
+		if (!isset(self::\$instance)) {
+			self::\$instance = new $1;
+		}
+		return self::\$instance;
+	}
+	
+	public function add_actions() {
+		add_action('init', array(\$this, 'request_handler'));
+	}
+
+	public function request_handler() {
+		if (isset(\$_REQUEST[\$this-&gt;action])) {
+			switch (\$_REQUEST[\$this-&gt;action]) {
+				default:
+					break;
+			}
+		}
+	}
+}
+${1:CLASS_NAME}::factory()-&gt;add_actions();</string>
+	<key>name</key>
+	<string>wpclass</string>
+	<key>tabTrigger</key>
+	<string>wpclass</string>
+	<key>uuid</key>
+	<string>9A8F911D-EB4D-45DA-8B65-82EFC5071B85</string>
+</dict>
+</plist>
