@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#! /usr/bin/env php
+&lt;?php
+print_r(unserialize(file_get_contents('php://stdin')));
+?&gt;</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Unserialize Array</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>uuid</key>
+	<string>01923349-5334-41F2-BCBB-404AD45CC1AF</string>
+</dict>
+</plist>
