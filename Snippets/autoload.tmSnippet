@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function $1(\$class) {
+	\$to_check = trailingslashit(realpath(dirname(__FILE__))).'classes/'.strtolower(str_replace('_', '-', \$class)).'.php';
+	if (file_exists(\$to_check)) {
+		require_once \$to_check;
+	}
+}
+spl_autoload_register('${1:function name}');</string>
+	<key>name</key>
+	<string>autoload</string>
+	<key>tabTrigger</key>
+	<string>autoload</string>
+	<key>uuid</key>
+	<string>BC1C2DAA-0D8C-4AC6-9144-881DEDF7D14F</string>
+</dict>
+</plist>
